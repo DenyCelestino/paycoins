@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Paycoins",
+    "slug": "PayCoins",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    
+    "android": {
+      "versionCode":2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions":["READ_PHONE_STATE","PHONE_CALL"],
+      "package": "com.bantucplus.paycoins"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
