@@ -5,7 +5,7 @@ use Firebase\JWT\Key;
 
 
 
-$key = "deny_celestino_844505131_kajdbksjdkasbdaksdjakdskj";
+$key = "XXXX";
 
 function datenow(){
   return date('Y-m-d H:i:s');
